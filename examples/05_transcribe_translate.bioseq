@@ -1,0 +1,4 @@
+DNA gene = "ATGGCCATTGTAATG";
+RNA transcript = TRANSCRIBE(gene);
+STRING protein = TRANSLATE(transcript);
+PRINT protein;

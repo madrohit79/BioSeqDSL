@@ -1,0 +1,2 @@
+DNA seq = "ATGCGTACG";
+PRINT LENGTH(seq);

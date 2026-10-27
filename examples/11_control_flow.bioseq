@@ -1,0 +1,20 @@
+// BioSeqDSL Example 11: Control Flow (IF / ELSE)
+DNA seq1 = "GCGCGCGCGCGCGCGC";
+DNA seq2 = "ATATATATATATATAT";
+
+FLOAT gc1 = GC_CONTENT(seq1);
+FLOAT gc2 = GC_CONTENT(seq2);
+
+IF (gc1 > 60.0) {
+    PRINT "seq1 has high GC content";
+    PRINT gc1;
+} ELSE {
+    PRINT "seq1 has low GC content";
+}
+
+IF (gc2 > 50.0) {
+    PRINT "seq2 has high GC content";
+} ELSE {
+    PRINT "seq2 has low GC content";
+    PRINT gc2;
+}

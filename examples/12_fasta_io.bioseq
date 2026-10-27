@@ -1,0 +1,14 @@
+// BioSeqDSL Example 12: FASTA File I/O
+DNA genome = LOAD_FASTA("examples/sample_gene.fasta");
+
+PRINT "Loaded genome length:";
+PRINT LENGTH(genome);
+
+PRINT "GC content:";
+PRINT GC_CONTENT(genome);
+
+DNA rcomp = REVERSE_COMPLEMENT(genome);
+INTEGER written = SAVE_FASTA("examples/saved_output.fasta", rcomp, "Reverse Complement Synthetic Gene");
+
+PRINT "Saved reverse complement to file. Characters written:";
+PRINT written;

@@ -1,0 +1,3 @@
+DNA seq = "ATGC";
+RNA rna = "AUGC";
+DNA copy = rna;

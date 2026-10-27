@@ -1,0 +1,12 @@
+// BioSeqDSL Example 13: IUPAC Degenerate Nucleotides
+// Supports ambiguous bases: R (A/G), Y (C/T), S (C/G), W (A/T), N (any base)
+DNA degenerate_probe = "ATGNNNCRYWSKMBVHD";
+
+PRINT "Original IUPAC Probe:";
+PRINT degenerate_probe;
+
+PRINT "IUPAC Complement:";
+PRINT COMPLEMENT(degenerate_probe);
+
+PRINT "IUPAC Reverse Complement:";
+PRINT REVERSE_COMPLEMENT(degenerate_probe);

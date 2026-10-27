@@ -1,0 +1,3 @@
+DNA seq = "ATGGCCATTGTAATG";
+STRING protein = TRANSLATE(seq);
+PRINT protein;

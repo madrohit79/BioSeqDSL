@@ -1,0 +1,3 @@
+RNA rna = "AUGGCCAUUGUAAUG";
+STRING protein = TRANSLATE(rna);
+PRINT protein;

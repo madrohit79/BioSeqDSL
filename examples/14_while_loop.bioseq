@@ -1,0 +1,10 @@
+// BioSeqDSL Example 14: WHILE Loop
+INTEGER countdown = 3;
+
+PRINT "Starting countdown:";
+WHILE (countdown > 0) {
+    PRINT countdown;
+    countdown = countdown - 1;
+}
+
+PRINT "Blastoff!";
